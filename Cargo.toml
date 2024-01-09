@@ -1,0 +1,8 @@
+[package]
+name = "clone-stack-experiment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.152"
+nix = { version = "0.27.1", features = ["process", "resource", "sched"] }
